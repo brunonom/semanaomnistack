@@ -12,7 +12,7 @@ describe('ong', () => {
 		await connection.destroy();
 	});
 
-	it('should be able to creat a new ong', async () => {
+	it('should be able to create a new ong', async () => {
 		const response = await request(app)
 		.post('/ongs')
 		.send({
